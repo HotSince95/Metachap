@@ -7,13 +7,32 @@
     font-family: "matechap";
     src:url(../assets/fonts/LondrinaSolid-Black.ttf)
 }
+header{
+    display: flex;
+    flex-direction: column;
+}
+#botonera{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 50px;
+    height: 50px;
+
+}
+.botonera-nav{
+    margin-top:10px;
+}
+.nav-button{
+    color: rgb(255, 255, 255);
+    border:0;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 20px;
+}
 body{
-    background-image:url('https://img.wallpapersafari.com/desktop/1536/864/88/95/4KubzB.jpg');
+    /* background-image:url('https://img.wallpapersafari.com/desktop/1536/864/88/95/4KubzB.jpg'); */
     background-size:cover;
 }
-.nav{
-  
-}
+
 ul{
     display: flex;
     justify-content: space-around;
